@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.game_card {
+  box-shadow: 2px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border-style: double;
+  border-color: aqua;
+  border-radius: 8px;
+}
+
+#play_again {
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+
+  width: 300px;
+  height: 50px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(128, 239, 239, 0.904),
+    rgba(239, 247, 255, 0.812)
+  );
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#player1Score {
+  float: left;
+  margin-left: 100px;
+}
+
+#player2Score {
+  float: right;
+  margin-right: 100px;
+}
+
+#player1 {
+  margin-left: 90px;
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  width: 50%;
+  float: left;
+  padding: 10px;
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(128, 239, 239, 0.904),
+    rgba(239, 247, 255, 0.812)
+  );
+}
+
+#player2 {
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  margin-right: 90px;
+  width: 50%;
+  float: right;
+  padding: 10px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(128, 239, 239, 0.904),
+    rgba(239, 247, 255, 0.812)
+  );
+}
+
+.reset {
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+
+  width: 300px;
+  height: 50px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(128, 239, 239, 0.904),
+    rgba(239, 247, 255, 0.812)
+  );
+}
+
+.score_card {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  border-style: double;
+  border-color: aqua;
+}
